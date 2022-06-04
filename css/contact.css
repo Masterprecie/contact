@@ -7,10 +7,12 @@
 body{
     font-family: 'Roboto',sans-serif;
 }
+
 #contact-section{
     background:  #f1f1f1;
       
 }
+
 .bg-top-section{
     background: url(../img/contact-background.png);
     background-position: top;
@@ -38,11 +40,13 @@ body{
     font-size: 18px;
     line-height: 24px;
 }
+
 .box h4{
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
 }
+
 .box h5{
     font-weight: 600;
     font-size: 18px;
@@ -63,6 +67,7 @@ body{
     line-height: 38px;
     width: 90%;
 }
+
 .contact a{
     text-decoration: none;
     font-size: 20px;
@@ -82,7 +87,6 @@ body{
     height: 100%;
     border: 2px none #000;
     margin-right: 3px;
-    /* padding: 20px; */
     background: #fff;
     border-radius: 2px;
     padding: 40px 20px;
@@ -108,13 +112,21 @@ body{
     margin-left: 20px;
 }
 
-@media (max-width: 767px) {
-    #contact-section img{
-        width: 100%;
-    }    
+h6 a {
+    text-decoration: none;
+    color: black;
 }
-@media (max-width: 767px) {
-    
+  
+#contact-section {
+    background-image: url(../img/background-img.png);
+}
+
+button {
+    border: none;
+    border-radius: 3px !important;
+}
+
+@media (max-width: 769px) {   
 .readmore-btn{
     width: 100%;
 }
@@ -122,4 +134,26 @@ body{
     flex-direction: column;
     margin-top: 10px;
 }  
+.contact-part img, .contact-part .phone-no {
+    display: none !important;
 }
+  .media-part {
+    display: none !important;
+}
+  .link-up {
+    display: none !important;
+}
+  .crosson-logo {
+    margin-right: auto;
+}
+  .copy-right {
+    display: none;
+}
+  .question-part {
+    display: none;
+}
+  .p, h6 {
+    font-size: 10px !important;
+}  
+}
+
